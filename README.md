@@ -7,4 +7,4 @@ Automação de login na plataforma Alura utilizando Python.
 
 - Tecnologias utilizadas: Python(POO), Selenium, PyAutoGUI, python-dotenv.
 
-- Link: https://github.com/Eric-Cardoso/portfolio.git
+- Link: https://github.com/Eric-Cardoso/automacao-login-alura.git
