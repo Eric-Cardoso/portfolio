@@ -30,3 +30,10 @@ CLI assíncrona desenvolvida em Python para gerenciamento de Pokémons, com foco
 
 - Link: https://github.com/Eric-Cardoso/projeto_consumo_api.git
 
+### Biblioteca Admin
+Sistema de gestão de biblioteca construído com Django, com cadastro de clientes, livros e controle de empréstimos gerenciado inteiramente pelo Django Admin. Conta com automações via signals (marcação automática de livros emprestados, cálculo de expiração de cadastro) e controle de permissões por grupo (clientes e funcionários).
+
+- Tecnologias utilizadas: Python, Django, django-environ, Jazzmin, MkDocs.
+
+- Link: https://github.com/Eric-Cardoso/projeto_biblioteca.git
+
