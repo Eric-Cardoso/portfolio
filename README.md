@@ -37,3 +37,11 @@ Sistema de gestão de biblioteca construído com Django, com cadastro de cliente
 
 - Link: https://github.com/Eric-Cardoso/projeto_biblioteca.git
 
+### API de Gerenciamento de Gastos
+
+API REST desenvolvida com Flask para gerenciamento de gastos mensais, com foco em processamento assíncrono, SQL puro e arquitetura em camadas. A aplicação conta com autenticação JWT com rotação de refresh token (armazenado com hash no banco), CRUD completo de despesas com suporte a gastos parcelados e importação de gastos via CSV, processada em segundo plano com Celery e RabbitMQ. Os relatórios de gastos e dívidas pendentes são gerados por usuário, e o fechamento mensal do histórico roda automaticamente via tarefa periódica. O projeto é containerizado com Docker, documentado com Swagger/OpenAPI e coberto por testes unitários.
+
+- Tecnologias utilizadas: Python, Flask, flask-smorest, MySQL, Celery, RabbitMQ, Docker, JWT (PyJWT), Bcrypt, Pytest, MkDocs.
+
+- Link: https://github.com/Eric-Cardoso/expense-manager-api.git
+
